@@ -43,6 +43,8 @@ public class DogHouseMain {
 			System.out.println("Lucy: " + lucy.getSize());
 			System.out.println("Hercules: " + hercules.getSize());
 			System.out.println("TEST 1");
+			System.out.println("TEST 2");
+
 			fabian.bark();
 			hercules.bark();
 			lucy.bark();
