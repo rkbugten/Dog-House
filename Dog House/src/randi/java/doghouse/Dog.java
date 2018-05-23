@@ -15,7 +15,8 @@ public class Dog {
 	private String name;
 	private int size;
 	private String breed;
-
+	String myDogs[] = {"Ole","Dole","Doffen"};
+	
 	/*GETTERS AND SETTERS
 	 * Encapsulation are important!!
 	 */
@@ -53,6 +54,12 @@ public class Dog {
 			System.out.println("Ruff! Ruff!");
 		}else {
 			System.out.println("Yip! Yip!");
+		}
+		
+		public void display() {
+			for(int i=0; i < myDogs.length; i++) {
+				System.out.println("");
+			}
 		}
 	  }
 	}
