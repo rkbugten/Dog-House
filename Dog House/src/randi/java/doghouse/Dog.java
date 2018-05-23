@@ -55,12 +55,12 @@ public class Dog {
 		}else {
 			System.out.println("Yip! Yip!");
 		}
-		
-		public void display() {
+	}
+		public void displayDogNames() {
 			for(int i=0; i < myDogs.length; i++) {
 				System.out.println("");
 			}
 		}
 	  }
-	}
+	
 
