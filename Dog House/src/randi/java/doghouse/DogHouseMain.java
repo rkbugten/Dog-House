@@ -39,6 +39,7 @@ public class DogHouseMain {
 //				x = x+1;
 //			}
 			System.out.println("The dogs in The Dog House:");
+			System.out.println("---------------------------");
 			System.out.println("Fabian: " + fabian.getSize());
 			System.out.println("Lucy: " + lucy.getSize());
 			System.out.println("Hercules: " + hercules.getSize());
